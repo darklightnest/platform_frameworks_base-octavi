@@ -5894,6 +5894,9 @@ public final class Settings {
          */
         public static final String SHOW_CLIPBOARD_TOAST = "show_clipboard_toast";
 
+        /** @hide */
+        public static final String OMNI_NAVIGATION_BAR_RECENTS = "navigation_bar_recents";
+
         /**
          * @hide
          */

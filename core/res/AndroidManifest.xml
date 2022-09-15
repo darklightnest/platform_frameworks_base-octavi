@@ -466,6 +466,11 @@
     <protected-broadcast android:name="android.app.action.DEVICE_OWNER_CHANGED" />
     <protected-broadcast android:name="android.app.action.MANAGED_USER_CREATED" />
 
+    <!-- omni additions start -->
+    <protected-broadcast android:name="org.omnirom.omniswitch.ACTION_TOGGLE_OVERLAY2" />
+    <protected-broadcast android:name="org.omnirom.omniswitch.ACTION_PRELOAD_TASKS" />
+    <protected-broadcast android:name="org.omnirom.omniswitch.ACTION_HIDE_OVERLAY" />
+
     <!-- Added in N -->
     <protected-broadcast android:name="android.intent.action.ANR" />
     <protected-broadcast android:name="android.intent.action.CALL" />
